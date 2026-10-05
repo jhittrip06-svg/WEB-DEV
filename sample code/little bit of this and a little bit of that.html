@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All in one</title>
+    
+    <style>
+        
+        p#links {
+            padding: 5px; border: 1px ; float: left; width: 200px ;
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="design.css">
+
+</head>
+<body>
+
+    <header>
+
+        <img src="Weirdcore text !!!.png" alt="Why have you been acting weird?" class="banner">
+        
+        <hgroup class="hgroup">
+
+            <img alt="Hello walang image ngani" src="jake logo.png" class="logo">
+
+            <h1 class="intro">
+                Welcome to my site!
+            </h1>
+
+            <nav id="nav-for-header">
+
+                <h3 class ="navh3">
+                    Links to interesting stuff...
+                </h3>
+
+                <p class="nav-paragraph">
+                    <a alt="Not working" href="https://www.facebook.com/its.me.cj.1414">Facebook</a> | <a alt="Not working" href="https://www.instagram.com/c.v.hhh/">Instagram</a> | <a alt="Not working" href="https://www.tiktok.com/@z.ereve">Tiktok</a>
+                </p>
+
+            </nav>
+
+        </hgroup>
+
+    </header>
+
+    <main class="main">
+
+        <video class="eunchae-main" width="420" height="460" controls loop>
+            <source src="eunchae.mp4" type="video/mp4">
+        </video>
+
+        <br>
+
+        <h1 class="hanggeul">
+            <ruby>
+                <rb> 은채 </rb>
+                <rt> Eun chae </rt>
+                <rtc> Kindness and Talent </rtc>
+            </ruby>
+        </h1>
+
+        <br><br><br>
+
+        <p id="links">
+        <a href="javascript:toggle()">Show/Hide</a> <br>
+        <a href="mailto:jhittrip06@gmail.com">Email Johncen</a> <br>
+        <a href="https://www.youtube.com" target="_blank">YouTube</a> <br>
+
+        <img alt="jake the dog" id="jake-the-dog" src="Jake pfp.png">
+
+    </main>
+
+</body>
+
+<script>
+
+    function toggle () {
+        const jake = document.getElementById ( "jake-the-dog" )
+        let hid = ( jake.style.visibility !== "visible" )
+        jake.style.visibility =  (hid ) ? "visible" : "hidden"
+        jake.style.height = (hid ) ? "auto" : "0px"
+    }
+
+</script>
+
+</html>

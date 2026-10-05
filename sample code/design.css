@@ -1,0 +1,106 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: rgb(100, 75, 131);
+}
+
+header {
+    display: flex;
+    border: 2px solid #0D0B14;
+    flex-direction: column;
+    min-height: 100px;
+    margin: 10px;
+}
+
+.hgroup {
+    display: flow-root;
+    background-color: rgb(22, 121, 72);
+    background-clip: padding-box;
+    overflow: hidden;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    border-top: 2px;
+}
+
+.main{
+    background-color: pink;
+    margin: 24px 20px 24px 20px;
+    min-height: 100vh;
+    display: flow-root;
+    box-sizing: border-box;
+    border-radius: 32px;
+    isolation: isolate;
+    position: relative;
+    z-index: 1;
+}
+
+article.sidebar > p, aside {
+    display: table-cell;
+    padding-right: 100px;
+}
+
+.banner {
+    width: 100%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-for-header{
+    padding: 0px;
+    display: block;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: -9px;
+}
+
+.intro{
+    font-weight: normal;
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+}
+
+.navh3 {
+    font-weight: normal;
+    font-family: Arial;
+    margin: 0;
+    color: #0D0B14;
+    font-size: 1.5em;
+}
+
+.nav-paragraph {
+    font-family: Arial;
+    margin: 0;
+    color: #0D0B14;
+}
+
+.eunchae-main{
+    display: block;
+    margin-top: 0px;
+    margin-left: 700px;
+}
+
+#jake-the-dog {
+    width: 256px;
+    height: 256px;
+    visibility: hidden;
+    height: 0px
+}
+
+.hanggeul {
+    font-size: 3rem;
+    font-family: Arial;
+    color: #0D0B14;
+    line-height: 1.8;
+    text-align: center;
+}
