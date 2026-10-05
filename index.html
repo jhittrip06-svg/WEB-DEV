@@ -1,9 +1,5 @@
-
-
 <html lang="en">
-
   <head>
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hanap Badap</title>
@@ -20,28 +16,46 @@
     <!--INTER-->
 
     <!--CUSTOM FONT-->
-  
   </head>
 
   <body>
-
     <header class="header">
-
       <!--LOGO SECTION-->
       <a class="logo" href="">
         <img src="images/bounce.svg" alt="logo" />
       </a>
       <!--LOGO SECTION-->
-      
+
       <!--SEARCH BAR-->
 
-      <form action="/search" method="GET" class="search-form" role="search" id="search-form">
-
+      <form
+        action="/search"
+        method="GET"
+        class="search-form"
+        role="search"
+        id="search-form"
+      >
         <!--SEARCH ICON-->
-        <button type="submit" class="search-btn" id="search-submit-btn" aria-label="Submit Search">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search preview-icon">
-            <path d="m21 21-4.34-4.34"/>
-            <circle cx="11" cy="11" r="8"/>
+        <button
+          type="submit"
+          class="search-btn"
+          id="search-submit-btn"
+          aria-label="Submit Search"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-search preview-icon"
+          >
+            <path d="m21 21-4.34-4.34" />
+            <circle cx="11" cy="11" r="8" />
           </svg>
         </button>
         <!--SEARCH ICON-->
@@ -57,19 +71,35 @@
         />
 
         <!--X ICON-->
-        <button type="button" class="clear-btn" id="clear-search-btn" aria-label="Clear Search Input" tabindex="-1">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x preview-icon">
-            <path d="M18 6 6 18"/>
-            <path d="m6 6 12 12"/>
+        <button
+          type="button"
+          class="clear-btn"
+          id="clear-search-btn"
+          aria-label="Clear Search Input"
+          tabindex="-1"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-x preview-icon"
+          >
+            <path d="M18 6 6 18" />
+            <path d="m6 6 12 12" />
           </svg>
         </button>
         <!--X ICON-->
-
       </form>
 
       <!--SEARCH BAR-->
 
-      <!--PROFILE SIGN IN & SIDEBAR CART-->
+      <!--SIGN IN & SIDEBAR CART-->
 
       <nav class="navigation">
         <ul class="nav-list">
@@ -82,62 +112,55 @@
         </ul>
       </nav>
 
-      <!--PROFILE SIGN IN & SIDEBAR CART-->
-
+      <!--SIGN IN & SIDEBAR CART-->
     </header>
 
     <main>
-
       <!--PRODUCT PAGE LINKING-->
 
-      <section>
-        <div class="shop-navigation">
-          <nav>
-            <ul class="product-link">
-              <li>
-                <a href="">Shoes</a>
-              </li>
-              <li>
-                <a href="">Volleyballs</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </section>
+      <div class="shop-navigation">
+        <nav>
+          <ul class="product-link">
+            <li>
+              <a href="">Shoes</a>
+            </li>
+            <li>
+              <a href="">Volleyballs</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
       <!--PRODUCT PAGE LINKING-->
 
       <!--SLIDER SECTION-->
-      
-      <section>
-        <div class="slider" id="ad-slider">
-          <!-- INSTAGRAM-STYLE SEGMENTED INDICATORS -->
-          <div class="indicators-container">
-            <button
-              class="indicator-segment"
-              data-slide="0"
-              aria-label="Go to slide 1"
-            >
-              <span class="indicator-fill"></span>
-            </button>
-            <button
-              class="indicator-segment"
-              data-slide="1"
-              aria-label="Go to slide 2"
-            >
-              <span class="indicator-fill"></span>
-            </button>
-          </div>
 
-          <div class="slides-track">
-            <img src="images/Banner 1.png" alt="Shoes & Gear" class="slide" />
-            <img src="images/Banner 2.png" alt="Volleyballs" class="slide" />
-          </div>
+      <div class="slider" id="ad-slider">
+        <!-- INSTAGRAM-STYLE SEGMENTED INDICATORS -->
+        <div class="indicators-container">
+          <button
+            class="indicator-segment"
+            data-slide="0"
+            aria-label="Go to slide 1"
+          >
+            <span class="indicator-fill"></span>
+          </button>
+          <button
+            class="indicator-segment"
+            data-slide="1"
+            aria-label="Go to slide 2"
+          >
+            <span class="indicator-fill"></span>
+          </button>
         </div>
-      </section>
+
+        <div class="slides-track">
+          <img src="images/Banner 1.png" alt="Shoes & Gear" class="slide" />
+          <img src="images/Banner 2.png" alt="Volleyballs" class="slide" />
+        </div>
+      </div>
 
       <!--SLIDER SECTION-->
-
     </main>
 
     <!-- INCLUDE SCRIPT BEFORE CLOSING BODY TAG -->
