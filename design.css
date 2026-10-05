@@ -25,6 +25,7 @@ body {
 /*container for search form*/
 .search-form {
   position: absolute;
+  top: 30%;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
@@ -175,6 +176,47 @@ body {
   display: block;
 }
 /*LOGO DESIGN*/
+
+/*SHOPPING PAGE LINK SECTION*/
+
+.shop-navigation {
+  position: relative;
+  top: 1.2vh;
+  overflow:hidden;
+  background-color: #1e1b2e;
+  border-top: 2px solid #13091f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: o;
+  padding: 1.25rem 0;
+}
+.product-link {
+  display: flex;
+  gap: 20rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.product-link a {
+  color: #f8fafc;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: color 0.2s ease;
+}
+
+.product-link a:hover {
+  color: #ffffff;
+}
+
+/*SHOPPING PAGE LINK SECTION*/
 
 /*AD-SLIDER SECTION*/
 
